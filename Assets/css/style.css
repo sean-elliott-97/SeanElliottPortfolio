@@ -1,0 +1,65 @@
+
+
+*{
+    box-sizing: border-box;
+    padding:10px;
+    margin:0px;
+    font-family:monospace;
+    color:rgb(255, 255, 255);
+}
+
+body{
+    background-color:white;
+}
+
+
+.navigationBar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(58, 53, 53);
+    border-radius: 10px;
+}
+
+
+.navigationBar li{
+    float:left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 36px 36px;
+    font-size: 30px;
+    
+}
+
+/*modifies properties of all sections on page*/
+section{
+    border-radius: 35px;
+    display:flexbox;
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    background: skyblue;
+
+}
+
+
+.Work ul{
+    list-style-type: none;
+}
+
+/*sets max-height and max-width to 50 and 80% respectively for the project one image*/
+#projectOne{
+    max-height: 50%;
+    max-width: 80%;
+
+}
+
+/*changes opacity of password generator app image since it's still in progress, and makes the max height and width lower than project one's*/
+#passwordGenerator{
+    opacity: .3;
+    max-height:40%;
+    max-width: 70%;
+
+}
