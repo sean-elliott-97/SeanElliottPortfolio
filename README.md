@@ -15,4 +15,4 @@ Link to deployed application: https://sean-elliott-97.github.io/SeanElliottPortf
 
 Screenshot:
 
-![PortfolioScreenshot](https://user-images.githubusercontent.com/89947920/134823856-26354af4-86f2-4a27-8285-0e71e7340aa1.png)
+![PortfolioScreenshot](https://user-images.githubusercontent.com/89947920/134824353-4eef21bd-71de-4b8b-81d1-bef8f5c8ade7.png)
