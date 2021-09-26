@@ -1,65 +1,89 @@
-
-
+/*creates a border-box for webpage, padding set to 0px, margine set to 0px, font for all text in page set to monospace, and text color set to white*/
 *{
     box-sizing: border-box;
-    padding:10px;
+    padding:0px;
     margin:0px;
     font-family:monospace;
-    color:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);    
 }
 
+/*background color of body set to light green*/
 body{
-    background-color:white;
+    background-color: lightgreen;
 }
 
-
-.navigationBar ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color: rgb(58, 53, 53);
-    border-radius: 10px;
-}
-
-
-.navigationBar li{
-    float:left;
-    display: block;
-    color:white;
-    text-align: center;
-    padding: 36px 36px;
-    font-size: 30px;
+/*header background color set to grey and displayed as flex, justify content set to space-between, items are center-aligned, padding set to 5px, and font size set to 28px*/ 
+header{
+    background-color:grey;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    font-size: 28px;
     
 }
+/*h1 in header nav is displayed as inline-block, top and bottom padding set to 0px and left and right padding set to 35 px, color set to black*/
+header nav h1{
+    display: inline-block;
+    padding: 0px 35px;
+    color: black;
+}
 
-/*modifies properties of all sections on page*/
+
+
+
+/*modifies border-radius, float of box, margin, padding, text shadow, and background of all sections on page*/
 section{
     border-radius: 35px;
+    float:left;
     display:flexbox;
     margin: 20px;
     padding: 20px;
-    font-size: 24px;
+    text-shadow: 4px 2px black;
     background: skyblue;
-
 }
 
+/*changes the font size of h1 in sections to 24px*/
+section h1{
+    font-size: 24px;
+}
 
+/*changes font size of p in sections to 20px*/
+section p{
+    font-size: 20px;
+}
+
+/*changes list-style-type to none, text-align to center, and font size of unordered list in work class*/ 
 .Work ul{
     list-style-type: none;
+    text-align: center;
+    font-size:24px;    
 }
 
-/*sets max-height and max-width to 50 and 80% respectively for the project one image*/
+
+/*sets max-height and max-width to 50 and 80% respectively for the project one image; centers image and puts a white border around it*/
 #projectOne{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
     max-height: 50%;
     max-width: 80%;
+    border:10px solid white;
 
 }
 
-/*changes opacity of password generator app image since it's still in progress, and makes the max height and width lower than project one's*/
-#passwordGenerator{
-    opacity: .3;
-    max-height:40%;
-    max-width: 70%;
-
+/*displays footer class as flex, changes padding to 5px, background to orange, and justify content to space-between*/
+.footer{
+    display: flex;
+    padding:5px;    
+    background:orange;
+    justify-content: space-between;
 }
+
+/*displays a tags in footer class as inline-block, changes padding to 0 px for top and bottom and 35 px for left and right, and changes font size to 20px*/
+.footer a{
+    display: inline-block;
+    padding:0px 35px;
+    font-size: 20px;
+}
+

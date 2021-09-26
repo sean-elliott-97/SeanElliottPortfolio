@@ -2,45 +2,52 @@
 <html lang="en-us">
 
 <head>
+    <!--allows page's content to be sized to a user's viewport--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="Assets\css\style.css">
+
+    <!--title of the web page-->
     <title>Sean Elliott Portfolio</title>
 </head>
-
 <body>
-    <nav class="navigationBar">
-        
-        <ul>
-            <li>Sean Elliott</li>
-            <li id ="Avatar">😃</li>
-            <a href="#About"><li>About</li></a>
-            <a href ="#Work"><li>Work</li></a>
-            <a href ="#Contact"><li>Contact</li></a>
-        </ul> 
-        
-    </nav>
-
+    <!--header containing navbar-->
+    <header>
+        <h1>Sean Elliott</h1>
+        <nav>
+            <ul>
+                <!--emoji avatar-->
+                <h1>😃</h1>
+                <h1><a href="#About">About</a></h1>
+                <h1><a href="#Work">Work</a></h1>
+                <h1><a href="#Contact">Contact</a></h1>
+            </ul>
+        </nav>
+    </header>
+    <!--section containing a short biography-->
     <section class ="About" id ="About">
         <h1>About</h1>
         <br>
-        <p>I'm originally from the Chicago metro area and have lived all over the United States since moving away. I graduated from UNLV with a bachelor's degree in Information Management and decided to learn web development. So far, I have one completed project and am currently working on another. </p>
+        <p>I'm originally from the Chicago metro area and have lived all over the United States since moving away. I graduated from UNLV with a bachelor's degree in Information Management and decided to learn web development.</p>
     </section>
 
-
+    <!--section containing my previous work-->
     <section class ="Work" id ="Work">
         <h1>Work</h1>
         <ul>
-            <li>Horiseon Code Rework</li>
+            <li>Horiseon Code Refactor</li>
             <a href ="https://sean-elliott-97.github.io/HomeworkAssignment1/" target ="_blank"><img id = "projectOne" src="Assets\images\HoriseonMainPage.png" alt="First Project"></a>
-            <li>Password Generator (In progress)</li>
-            <a href ="#"><img id ="passwordGenerator" src ="Assets\images\password generator.png" alt ="Password Generator (In Progress)"></a>
         </ul>
     </section>
 
-    <section class = "Contact" id ="Contact">
+    <!--creates a footer that contains contact information-->
+    <footer class = "footer" id ="Contact">
         <h1>Contact</h1>
-        <p><a href="mailto:sean.elliott.33197@gmail.com">Email</a></p>
-    </section>
+        
+        <a href="mailto:sean.elliott.33197@gmail.com">Email</a>
+        
+        <a href="https://github.com/sean-elliott-97" target ="blank">Github</a>
+    </footer>
 
 </body>
