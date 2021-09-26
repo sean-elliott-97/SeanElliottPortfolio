@@ -7,11 +7,6 @@
     color:rgb(255, 255, 255);    
 }
 
-/*background color of body set to light green*/
-body{
-    background-color: lightgreen;
-}
-
 /*header background color set to grey and displayed as flex, justify content set to space-between, items are center-aligned, padding set to 5px, and font size set to 28px*/ 
 header{
     background-color:grey;
@@ -28,9 +23,6 @@ header nav h1{
     padding: 0px 35px;
     color: black;
 }
-
-
-
 
 /*modifies border-radius, float of box, margin, padding, text shadow, and background of all sections on page*/
 section{
