@@ -64,6 +64,14 @@ section p{
 
 }
 
+#groupProjectOne{
+margin-left: auto;
+margin-right: auto;
+display: block;
+max-height: 40%;
+max-width: 70%;
+border: 10px solid white;
+}
 /*displays footer class as flex, changes padding to 5px, background to orange, and justify content to space-between*/
 .footer{
     display: flex;
