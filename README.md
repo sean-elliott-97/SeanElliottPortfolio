@@ -5,7 +5,7 @@ The navbar at the top of the webpage contains my name, avatar, short biography, 
 
 Short biography, work, and contact information navbar links will direct users to corresponding sections on the webpage.
 
-The work section contains screenshots of previous applications I've worked on. 
+The work section contains screenshots of applications I've worked on. 
 
 When the image of either of the applications is clicked, the user will be taken to the corresponding deployed application.
 
